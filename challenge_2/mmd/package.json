@@ -1,0 +1,24 @@
+{
+  "name": "mmd",
+  "version": "1.0.0",
+  "description": "Challenge 2 (IDMt380) minify CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/mel-gross/IDM-Git-Practice"
+  },
+  "keywords": [
+    "css",
+    "minify",
+    "node"
+  ],
+  "author": "Mel Gross",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "minify": "^3.0.5"
+  }
+}
