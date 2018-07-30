@@ -3,7 +3,7 @@ const minify = require('minify');
 
 const src = 'src/styles.css';
 const fn = 'styles.min.js';
-const code = fs.readFileSyn (src, 'utf8');
+const code = fs.readFileSync (src, 'utf8');
 const result = minify([code]);
 
 if (result.error){
